@@ -237,6 +237,10 @@ justify-content: center;
     border: solid #BABABA 3px;
     border-radius: 3px;
 }
+.container-2 .phone-picture img {
+    width: 199.68px;
+    height: 353.68px;
+}
 
 .next,
 .prev {
