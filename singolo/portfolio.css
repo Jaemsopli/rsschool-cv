@@ -78,24 +78,11 @@ ul li {
     transition-duration: 700ms;
    } 
 
-.slide {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-}
-
-.active {
-    display: block;
-}
-
-.disable {
-    display: none;
-}
-
+   .slide {
+       position: relative;
+   }
  .background-container {
     background: #F06C64;
-    position: relative;
-    width: 100%;
  }
  .background-container-2 {
     background: #648BF0;
@@ -108,7 +95,10 @@ ul li {
     margin: auto;
     padding: 50px 0;
     justify-content: flex-start;
-   
+}
+.container-2 {
+align-items: center;
+justify-content: center;
 }
 .container-2 .phone:first-of-type {
     transform: translateX(25%) scale(0.5);
@@ -225,11 +215,6 @@ ul li {
     height: 513px;
 }
 
-/*.phone-picture {
-    position: absolute;
-    margin: 65px 13px;
-    border: solid #BABABA 5px;   
-}*/
 .phone-picture  {
     position: absolute;
     width: 188px;
@@ -253,16 +238,17 @@ ul li {
     border-radius: 3px;
 }
 
-button.next,
-button.prev {
+.next,
+.prev {
     cursor: pointer;
+    width: 100px;
 }
 
 .arrow-3-top, 
 .arrow-3-bottom {
     background: gray;
     height: 10px;
-   left: 15%;
+   left: 10%;
     position: absolute;
     top: 50%;
     width: 30px;
@@ -286,7 +272,7 @@ button.prev {
 .arrow-2-bottom {
     background: gray;
     height: 10px;
-   left: 85%;
+   left: 90%;
     position: absolute;
     top: 50%;
     width: 30px;
