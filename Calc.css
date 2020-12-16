@@ -1,9 +1,18 @@
+.iphone {
+    position: relative;
+    margin: 200px 500px;
+}
+
 .calculator {
-margin: auto;
  width: 177px;
+ height: 283px;
 display: flex;
 flex-wrap: wrap;
 background: #141413;
+position: absolute;
+top: 65px;
+left: 15px;
+z-index: 20;
 }
 
 button  {
@@ -27,5 +36,74 @@ margin: 10px;
 
 #display {
     width: 177px;
-    height: 40px;
+    height: 45px;
+}
+
+.phone {
+    Width: 216px;
+    Height: 408px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    position: relative;
+}
+.phone-micro {
+    margin: 16.48px 103.06px;
+    color: #ACACAC;
+    background: red;
+    border-style: solid;
+    border-radius: 50px;
+    width: 3.88px;
+    height: 3.88px;
+    border-width: 5px;
+    position: absolute;
+    z-index: 4;
+}
+.phone-dinamic {
+    background: #ACACAC;
+    position: absolute;
+    width: 36px;
+    height: 5px;
+    border-radius: 20px;
+    margin: 36px 91px;
+    z-index: 3;
+}
+
+.button-circle {
+    width: 41.88px;
+    height: 41.88px;
+    border-radius: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    margin: 357px 87px;
+    position: absolute;
+    z-index: 3;
+}
+
+.phone-circle {
+    width: 14.45px;
+    height: 14.45px;
+    color: #BABABA;
+    background: white;
+    border-style: solid;
+    border-radius: 6px;
+    z-index: 3;
+}
+
+
+.phone-picture  {
+    position: absolute;
+    width: 177px;
+    height: 283px;
+    background: black;
+    margin: 65px 13px;
+    border: solid #BABABA 3px;
+    border-radius: 3px;
+    z-index: 3;
+}
+
+.turn {
+    display: none;
 }
