@@ -22,7 +22,7 @@
 .mail a:hover {background: #d52b2b; color: #fff;}
 .tel a:hover {background: #1087dd; color: #fff;}
 
-body {
+* {
   max-width: 800px;
   margin: auto;
 }
@@ -56,6 +56,9 @@ a {
 div h2 {
 display: inline-block;
 background-color: #808080
+}
+h2 {
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 400px) {
