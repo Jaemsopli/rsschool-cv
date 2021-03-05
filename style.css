@@ -72,10 +72,21 @@ h2 {
   padding: 20px 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
 body { 
 margin: 0;
 width: 90%;
+}
+img {
+  width: 20%;
+}
+.face {
+ 
+  display: flex;
+  justify-content: flex-start;
+}
+.tex {
+  margin: 0;
 }
 section {
   float: left;
@@ -102,6 +113,17 @@ aside {
   margin: auto;
   width: 90%;
   }
+  img {
+    width: 20%;
+  }
+  .face {
+   
+    display: flex;
+    justify-content: flex-start;
+  }
+  .tex {
+    margin: 0;
+  }
   #image { 
   display: block;
   margin: auto;
@@ -120,4 +142,15 @@ aside {
   #image {
     float: right;
   }
+}
+img {
+  width: 20%;
+}
+.face {
+ 
+  display: flex;
+  justify-content: flex-start;
+}
+.tex {
+  margin: 0;
 }
